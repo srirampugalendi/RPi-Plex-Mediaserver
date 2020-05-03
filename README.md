@@ -3,16 +3,16 @@ This project aims at building a remotely managed media-server with a Raspberry P
 
 **Pre-requisites:**
 **Hardware:**
-Raspberry Pi with Raspbian OS
-USB 3 128GB
-WiFi Adapter(Optional)
+* Raspberry Pi with Raspbian OS
+* USB 3 128GB
+* WiFi Adapter(Optional)
 
 **Software:**
-Plex media server
-Deluge Bit Torrent engine
-Deluge web client
-VNC Server
-RPi Monitor(Optional)
+* Plex media server
+* Deluge Bit Torrent engine
+* Deluge web client
+* VNC Server
+* RPi Monitor(Optional)
 
 **Step 1:** Install plex server.
 Install Plex media server in RPi
