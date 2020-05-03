@@ -1,5 +1,5 @@
 # RPi-Plex-Mediaserver
-This project aims at building a remotely managed media-server with a Raspberry Pi, Plex &amp; Deluge.
+This project aims at building a remotely managed media-server with a **Raspberry Pi, Plex &amp; Deluge**.
 
 **Pre-requisites:**
 **Hardware:**
@@ -32,7 +32,7 @@ Set the download location to the plex media library folder. So, once the downloa
 **Step 5:** Automate to personal need using deluge execute plugin.
 If you want to run any automation task, like sending email when download is completed or renaming the downloaded file, deluge executre plugin is there to help. Deluge can invoke shell scripts for you based on events like torrent downloaded, removed , added etc.. This option can be found in Deluge Web UI -> Preferences -> Execute.
 
-I have uploaded invoke.sh script that i used to rename torrent files downloaded from specific sites, so plex is easily able to match the name against the imdb database
+I have uploaded invoke.sh script that i used to rename torrent files downloaded from specific sites, so plex is easily able to match the name against the IMDB database.
 
 **Step 6:** Enabling remote access.
 You can enable remote access(Plex -> Settings -> Remote Access) to plex media server so your friends can also access your media from their home. However, if you want to remote access your RPi from outside your home for troubleshooting, you can do it by installing VNC Server and login to vnc account.
